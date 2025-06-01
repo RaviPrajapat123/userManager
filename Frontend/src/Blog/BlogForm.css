@@ -1,0 +1,41 @@
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.form_inputs textarea{
+    /* padding: 5px 10px; */
+     padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+
+
+.form_inputs select{
+     padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+.submitbtn{
+     padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 300px;
+  margin: 0px auto;
+  background-color: #2dbc32;
+  margin-bottom: -10px;
+}
+
+label{
+    margin-bottom: -15px;
+}
+

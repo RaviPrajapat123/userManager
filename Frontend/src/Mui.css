@@ -1,0 +1,86 @@
+.search{
+    width: 500px;
+    height: 30px;
+    font-size: large;
+    padding: 0px 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 70px
+}
+.headerBtn{
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+    
+}
+.show{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+.headerBtn button{
+    padding: 5px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+   
+
+
+}
+.headerBtn .viewBtn{
+    background-color: blue;
+  }
+ .headerBtn .editBtn{
+    background-color: yellow;
+  }
+ .headerBtn .deleteBtn{
+    background-color: red;
+  }
+
+img{
+    width: 60px;
+  }
+
+  .profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+
+ .profile .right{
+    display: flex;
+    flex-direction: column;
+  }
+  .rowsPerPages{
+    margin-right: 40px;
+  }
+  select{
+    margin-right: 20px;
+    padding: 8px 0px;
+  }
+
+  .pages button{
+    background-color: rgb(10, 237, 10);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 10px 5px;
+    border-radius: 4px ;
+  }
+
+  button.active {
+    background-color: #cacccf;
+    color: white;
+    font-weight: bold;
+    cursor: not-allowed;
+  }
+  button.disabled {
+    background-color: #cacccf;
+    cursor: not-allowed;
+  }
+  
