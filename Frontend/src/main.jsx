@@ -9,7 +9,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 import MUI from "./MUI.jsx";
 import Form from "./Form.jsx";
-import View from "./view.jsx";
+// import View from "./view.jsx";
 import BlogForm from "./Blog/BlogForm.jsx";
 import BlogTable from "./Blog/BlogTable.jsx";
 // import CategoriesFrom from "./Blog/CategoriesForm.jsx";
